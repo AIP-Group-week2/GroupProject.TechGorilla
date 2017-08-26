@@ -1,5 +1,5 @@
-<font color="green"><p>LARAVEL V5.4 Developer note - Project TechGorilla Alpha v0.2</p>
-	<p>TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.</p></font>
+<p>LARAVEL V5.4 Developer note - Project TechGorilla Alpha v0.2</p>
+<p>TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.</p></font>
 
 #TechGorilla developer notes#
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -31,7 +31,7 @@
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
-->Installing guild for local enviornment 
+->Installing guidance for local enviornment 
 
 Running this project requires MySQL server and Composer installed.
 1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
