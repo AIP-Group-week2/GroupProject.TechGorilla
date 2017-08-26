@@ -35,7 +35,7 @@
 
 Running this project requires MySQL server and Composer installed.
 1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
-2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours.
+2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours. <b>example.env.example</b> -> <b>.env</b>
 3. Generate your communication key on terminal: <b>php artisan key:generate</b>
 4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
 5. Test database migration: <b>php artisan db:seed</b>
