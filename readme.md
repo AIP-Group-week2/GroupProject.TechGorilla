@@ -2,7 +2,7 @@ LARAVEL V5.4 Developer note - Project TechGorilla Alpha v0.2
 TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.
 
 #TechGorilla developer notes#
-Coding convention - v1.0 
+->Coding convention - v1.0 
 
 
 -Variables are in camelCase such as getName, getEmailAdd etc.
@@ -22,7 +22,16 @@ Coding convention - v1.0
 -Developers must backup the original copy of the project. And keep it for at least 14 days.
 
 -Codes with core functions must stored in specific folders. Only global files can be stored on the root (resources/views/).
+*last update: 27/8/2017
 
+->Installing guild for local enviornment 
 
-last update: 27/8/2017
+Running this project requires MySQL server and Composer installed.
+1. Apply <composer update> at the root of the project folder on terminal after download.
+2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours.
+3. Generate your communication key on terminal: <php artisan key:generate>
+4. Execute data migration on terminal: <php artisan migrate>. (Please be aware that this can be done after you successfully make connection with your local database.)
+5. Test database migration: <php artisan db:seed>
+6. Use admin@admin.com for email address and 111111 for password for admin login.
+
 #TechGorilla developer notes#
