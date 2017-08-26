@@ -29,9 +29,9 @@ TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.
 Running this project requires MySQL server and Composer installed.
 1. Apply <b>composer update</b> at the root of the project folder on terminal after download.
 2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours.
-3. Generate your communication key on terminal: "php artisan key:generate"
-4. Execute data migration on terminal: "php artisan migrate". (Please be aware that this can be done after you successfully make connection with your local database.)
-5. Test database migration: "php artisan db:seed"
-6. Use admin@admin.com for email address and 111111 for password for admin login.
+3. Generate your communication key on terminal: <b>php artisan key:generate</b>
+4. Execute data migration on terminal: <b>php artisan migrate</b>. (Please be aware that this can be done after you successfully make connection with your local database.)
+5. Test database migration: <b>php artisan db:seed</b>
+6. Use admin@admin.com for email address and <b>111111</b> for password for admin login.
 
 #TechGorilla developer notes#
