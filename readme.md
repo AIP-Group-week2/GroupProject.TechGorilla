@@ -2,8 +2,8 @@ LARAVEL V5.4 Developer note - Project TechGorilla Alpha v0.2
 TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.
 
 #TechGorilla developer notes#
+-----------------------------------------------------------------------------------------------------------------------------------
 ->Coding convention - v1.0 
-
 
 -Variables are in camelCase such as getName, getEmailAdd etc.
 
@@ -24,6 +24,13 @@ TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.
 -Codes with core functions must stored in specific folders. Only global files can be stored on the root (resources/views/).
 *last update: 27/8/2017
 
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
 ->Installing guild for local enviornment 
 
 Running this project requires MySQL server and Composer installed.
