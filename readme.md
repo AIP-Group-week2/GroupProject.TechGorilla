@@ -27,11 +27,11 @@ TechGorilla Team: Fulun He, Qiaozhi Lu and Xiaohan Wang.
 ->Installing guild for local enviornment 
 
 Running this project requires MySQL server and Composer installed.
-1. Apply <composer update> at the root of the project folder on terminal after download.
+1. Apply "composer update" at the root of the project folder on terminal after download.
 2. Edit and change database connection configs at .env and config/database.php files. Keep all the database config same with yours.
-3. Generate your communication key on terminal: <php artisan key:generate>
-4. Execute data migration on terminal: <php artisan migrate>. (Please be aware that this can be done after you successfully make connection with your local database.)
-5. Test database migration: <php artisan db:seed>
+3. Generate your communication key on terminal: "php artisan key:generate"
+4. Execute data migration on terminal: "php artisan migrate". (Please be aware that this can be done after you successfully make connection with your local database.)
+5. Test database migration: "php artisan db:seed"
 6. Use admin@admin.com for email address and 111111 for password for admin login.
 
 #TechGorilla developer notes#
